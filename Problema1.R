@@ -8,3 +8,8 @@ m<-0.06576 #tercera pregunta, m=valor mercat/variacion de 1, por eso es la prime
 b<-11.79755
 m*647.1+b #prediccion de x=647.1, primera recta ya que x=actius
 
+#cargar datos de fichero de texto<-mirar videos
+data<-read.table("air.txt",dec=",",header=TRUE,sep" ")
+head(data)
+
+data$Wind
